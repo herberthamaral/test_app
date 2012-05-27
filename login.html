@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+        <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+        <script type="text/javaScript" src="js/curvycorners.src.js"></script>
+
+        <title>IFNMG</title>
+    </head>
+
+    <body>
+        <div class="navbar">
+          <div class="navbar-inner">
+            <div class="container">
+                <a class="brand" href="#">IFNMG</a>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row-fluid" style="text-align:center">
+                
+<div class="span4"></div>
+<div class="span4 offset4" style="text-align: center">
+    
+    <h1 id="h1Login">Acesso ao Sistema</h1>
+    <form action="/accounts/login/" class="well form-inline" method="post">
+        <div style='display:none'><input type='hidden' name='csrfmiddlewaretoken' value='ac0eb9ae439d8f7a19bbc62a0c46ba98' /></div>
+        <input type="hidden" name="redirect_to" value="/"/>
+            
+
+
+
+
+    
+<div class="control-group">
+    
+        <label class="control-label" for="id_username">Usu&aacute;rio</label>
+
+        <div class="controls">
+            <input id="id_username" type="text" name="username" maxlength="30" />
+
+            
+
+            
+
+        </div>
+    
+</div>
+
+
+    
+<div class="control-group">
+    
+        <label class="control-label" for="id_password">Senha</label>
+
+        <div class="controls">
+            <input type="password" name="password" id="id_password" />
+
+            
+
+            
+
+        </div>
+    
+</div>
+
+
+
+
+            <p>
+                <input type="submit" value="Login" class="btn btn-primary"/>
+            </p>
+            <p>
+                <a href="/accounts/recuperar_senha/" class="btn btn-small">Esqueceu sua senha?</a>
+            </p>
+    </form>
+</div>
+
+            </div>
+            <footer class="footer" style="text-align:center">
+                <p>
+                    <label>IFNMG. 2012</label>
+                </p>
+            </footer>
+        </div>
+    </body>
+</html>
